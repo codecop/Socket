@@ -1,0 +1,15 @@
+{
+  "name":         "Socket",
+  "version":      "0.1",
+  "description":  "Interface to network communication.",
+  "author":       "Steve Dekorte",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["Socket", "DNSQuery", "DNSResolver","DNSServer","Event","EventManager", "GoogleSearch", "Host", "IPAddress", "Server", "URL", "WebServer", "WebRequest", "EvHttpServer"],
+  "dependencies": {
+    "libs":     ["event"],
+    "headers":  ["event.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
