@@ -7,7 +7,7 @@ be accessed using the readBuffer method.
 
 Example:
 
-```
+```Io
 socket := Socket clone setHost("www.google.com") setPort(80) connect
 if(socket error) then( write(socket error, "\n"); exit)
 
