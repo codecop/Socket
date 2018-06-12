@@ -22,7 +22,7 @@ write("read ", socket readBuffer length, " bytes\n")
 
 # Installation
 
-libevent should be installed and foundable in your system. Then:
+`libevent` should be installed and foundable in your system. Then:
 
 ```
 eerie install https://github.com/IoLanguage/Socket.git
