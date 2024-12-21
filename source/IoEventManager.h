@@ -12,7 +12,11 @@ Selects on sockets and checks for timeouts.
 #include "IoSocket.h"
 #include "IoEvent.h"
 #include "Socket.h"
+#if !defined(_WIN32) || defined(__CYGWIN__)
 #include <sys/queue.h>
+#else
+#include <compat/sys/queue.h>
+#endif
 #include <event.h>
 #include <evhttp.h>
 
