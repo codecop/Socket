@@ -1,5 +1,4 @@
 #include "IPAddress.h"
-#include "UnixPath.h"
 #include "Address.h"
 #include <stdlib.h>
 #include <string.h>
@@ -25,6 +24,7 @@ Address *Address_newWithIPAddress(void *ip)
 }
 
 #if !defined(_WIN32) || defined(__CYGWIN__)
+#include "UnixPath.h"
 Address *Address_newWithUnixPath(void *unixpath)
 {
 	Address *self = Address_new();
