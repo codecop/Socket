@@ -5,7 +5,7 @@
   "author":       "Steve Dekorte",
   "website":      "http://iolanguage.org/",
   "readme":       "README.md",
-  "protos":       ["Socket", "DNSQuery", "DNSResolver","DNSServer","Event","EventManager", "GoogleSearch", "Host", "IPAddress", "Server", "URL", "WebServer", "WebRequest", "EvHttpServer"],
+  "protos":       ["Socket", "DNSQuery", "DNSResolver","DNSServer","Event","EventManager", "Host", "IPAddress", "Server", "URL", "EvHttpServer"],
   "dependencies": {
     "libs":     ["event"],
     "headers":  ["event.h"],
