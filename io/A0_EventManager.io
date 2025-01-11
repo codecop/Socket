@@ -1,5 +1,5 @@
 Event do(
-	//doc Event category Networking
+	//metadoc Event category Networking
 	descriptorId ::= -1
 	eventType ::= nil
 	timeout ::= 10
